@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="crb56_shared_sharepointonline_c19b491d5dd24fc4ab2e5603fb076a3f">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="https://testuseruiapbi.sharepoint.com/sites/AppointmentSiteDev">
+    <label description="https://testuseruiapbi.sharepoint.com/sites/AppointmentSiteDev" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>dataset</parameterkey>
+  <type>100000004</type>
+</environmentvariabledefinition>

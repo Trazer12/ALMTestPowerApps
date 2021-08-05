@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crb56_testingapp_593d5</Name>
+  <AppVersion>2021-08-05T06:21:23Z</AppVersion>
+  <Status>NotReady</Status>
+  <CreatedByClientVersion>3.21074.37.0</CreatedByClientVersion>
+  <MinClientVersion>3.21074.37.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"cceae2f3-0e75-45bf-973c-d398cd9407ef","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21074.37","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>Testing App</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"58d0b4be-3933-491e-9e98-0a6c434b91a7":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1487/1.0.1487.2472/sharepointonline/icon.png","dataSources":["Appointments"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://testuseruiapbi.sharepoint.com/sites/AppointmentSiteDev":{"datasetOverride":{"environmentVariableName":"crb56_shared_sharepointonline_c19b491d5dd24fc4ab2e5603fb076a3f"},"dataSources":{"Appointments":{"tableName":"c7b6b4fa-bdce-4b4b-a15d-b1848489cdc5","tableNameOverride":{"environmentVariableName":"crb56_shared_sharepointonline_120dcd9d2ec94e10a99e8f464afd9dfb"}}}}},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"crb56_shared_sharepointonline_c19b491d5dd24fc4ab2e5603fb076a3f","componenttype":380},{"logicalname":"crb56_shared_sharepointonline_120dcd9d2ec94e10a99e8f464afd9dfb","componenttype":380}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crb56_testingapp_593d5_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crb56_testingapp_593d5_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
