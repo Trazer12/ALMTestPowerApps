@@ -19,31 +19,31 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: 'https://orgf4ac1a51.crm5.dynamics.com'
-        user-name: 'srinath.vk@ubtiinc.com'
+        environment-url: 'orgf9e7b399.crm8.dynamics.com'
+        user-name: 'testuser@testuseruiapbi.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
-        environment-url: 'https://org9e7797b8.crm.dynamics.com'
-        user-name: 'srinath.vk@ubtiinc.com'
+        environment-url: 'orgf9e7b399.crm8.dynamics.com'
+        user-name: 'testuser@testuseruiapbi.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
-        solution-name: Appointment
-        solution-output-file: out/exported/Appointment.zip
+        solution-name: Test
+        solution-output-file: out/exported/Test.zip
 
     - name: unpack-solution action
       uses: microsoft/powerplatform-actions/unpack-solution@v0
       with:
-        solution-file: out/exported/Appointment.zip
-        solution-folder: out/solutions/Appointment
+        solution-file: out/exported/Test.zip
+        solution-folder: out/solutions/Test
         solution-type: 'Unmanaged'
         overwrite-files: true
 
     - name: branch-solution, prepare it for a PullRequest
       uses: microsoft/powerplatform-actions/branch-solution@v0
       with:
-        solution-folder: out/solutions/Appointment
-        solution-target-folder: solutions/Appointment
+        solution-folder: out/solutions/Test
+        solution-target-folder: solutions/Test
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         allow-empty-commit: true
